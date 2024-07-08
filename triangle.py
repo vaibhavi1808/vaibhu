@@ -1,0 +1,1 @@
+base=float(input)("Enter Value for base")

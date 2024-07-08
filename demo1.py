@@ -1,0 +1,14 @@
+qnty=int(input("enter the quantity"))
+rate=int(input("enter the rate"))
+basic=qnty*rate
+print("basic value=",basic)
+disc=int(input("enter discount"))
+disd=(disc*basic)/100
+print("disc value=",disd)
+actualval=basic-disd
+print("actual value=",actualval)
+GST=5
+gstval=(5*actualval)/100
+print("gst value=",gstval)
+add=gstval+actualval
+print("addition=",add)

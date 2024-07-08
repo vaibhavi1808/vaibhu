@@ -1,0 +1,16 @@
+fruits=["apple","banana","cherry"]
+cars=["ford","BMW","volvo"]
+fruits.append("orange")
+print(fruits)
+x=fruits.copy()
+print(x)
+x=fruits.count("cherry")
+print(x)
+fruits.extend(cars)
+print(fruits)
+fruits.insert(1,"orange")
+print(fruits)
+fruits.pop(1)
+print(fruits)
+fruits.reverse()
+print(fruits)
